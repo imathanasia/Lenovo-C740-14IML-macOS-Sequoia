@@ -1,69 +1,87 @@
-# C740-14IML-OpenCore
+# Lenovo C740-14IML macOS Sequoia – OpenCore 1.0.8
 
-OpenCore EFI and evidence for a Lenovo Yoga C740-14IML running macOS Sequoia.
+<p align="center">
+  <img src="docs/img/01-hero.webp" alt="Hero – lid open, screen glowing" width="720">
+</p>
 
-## Specs
+### macOS Sequoia 15.8.3 running on the Lenovo Yoga C740-14IML with OpenCore 1.0.8
 
-| Item | Value | Tag and evidence |
-|---|---|---|
-| Model | Yoga C740-14IML, product 81TC | VERIFIED — `evidence/dmidecode.txt` |
-| Board | LNVNB161216 | VERIFIED — `evidence/dmidecode.txt` |
-| BIOS | BNCN41WW | VERIFIED — `evidence/dmidecode.txt` |
-| CPU | Intel Core i5-10210U | VERIFIED — `evidence/sysprof-all.txt` |
-| GPU | Intel UHD 620, `8086:9b41` | VERIFIED — `evidence/lspci-nn.txt` |
-| RAM | 8 GB DDR4-2667 | VERIFIED — `evidence/sysprof-all.txt` |
-| Storage | Kingston SNV2S250G | VERIFIED — `evidence/sysprof-all.txt` |
-| Audio | ALC285 behind cAVS `8086:02c8` at `00:1f.3` | VERIFIED — `evidence/lspci-nn.txt` |
-| Wi-Fi | Intel AX201, `8086:02f0` | VERIFIED — `evidence/lspci-nn.txt` |
-| Bluetooth | Intel AX201 USB, `8087:0026` | VERIFIED — `evidence/lsusb.txt` |
-| Webcam | `5986:2115` | VERIFIED — `evidence/lsusb.txt` |
-| Touchpad | Synaptics `06CB:CD3E` | VERIFIED — `AUDIT.md`, log-cited |
-| macOS | Sequoia 15.8.3 (24H241) | VERIFIED — `evidence/sysprof-all.txt` |
-| CFG-Lock | Set, `rdmsr 0xE2 = 1e008008` | VERIFIED — `evidence/msr-e2.txt` |
-| OpenCore | 1.0.8 published, 1.0.7 as booted | VERIFIED — `VALIDATION.md` |
+---
 
-## Working on this unit
+## 📋 At a Glance
 
-Every row has one tag and an evidence link. Everything in this table works on this machine. The touchscreen does not, as described below.
+### ✅ What works
+- **Model** – Yoga C740‑14IML (product 81TC)  
+- **CPU** – Intel Core i5‑10210U (4‑core 2.11 GHz)  
+- **GPU** – Intel UHD 620 (`8086:9b41`)  
+- **RAM** – 8 GB DDR4‑2667  
+- **Storage** – Kingston SNV2S250G NVMe (`2646:5017`)  
+- **Audio** – ALC285 behind cAVS `8086:02c8`, layout 61 (speakers + headphone jack)  
+- **Wi‑Fi** – Intel AX201 (`8086:02f0`)  
+- **Bluetooth** – Intel AX201 USB (`8087:0026`)  
+- **Webcam** – `5986:2115` (UVC, works)  
+- **Touchpad** – Synaptics `06CB:CD3E` (tap + double‑click mostly)  
+- **Boot chime** – works with AudioDxe forced to cAVS (48 kHz)  
+- **Sleep / wake** – 6‑second captured interval (verified)  
+- **CFG‑Lock** – set (`rdmsr 0xE2 = 1e008008`)  
+- **OpenCore** – 1.0.8 published, 1.0.7 as booted  
 
-| Feature | Tag and evidence |
-|---|---|
-| Boot to desktop with acceleration | VERIFIED — `evidence/sysprof-all.txt` |
-| Speakers and headphone jack, layout 61 | VERIFIED — `evidence/sysprof-all.txt`, `evidence/config-redacted.json` |
-| Built-in microphone present as default input | VERIFIED — `evidence/sysprof-all.txt` |
-| Boot chime | VERIFIED — `evidence/config-redacted.json`, [Boot chime on cAVS](docs/BOOT-CHIME-cAVS.md) |
-| Wi-Fi controller present and enabled | VERIFIED — `evidence/lspci-nn.txt`, `evidence/config-redacted.json` |
-| Bluetooth controller active, phone paired | VERIFIED — `evidence/sysprof-all.txt`, `evidence/lsusb.txt` |
-| Webcam | VERIFIED — `evidence/lsusb.txt` |
-| Sleep and wake, 6-second captured interval | VERIFIED — `evidence/sleep-wake.log` |
-| Keyboard backlight | VERIFIED, operator-confirmed — `AUDIT.md` |
-| Touchpad movement, tap, mostly working double-click | VERIFIED — `AUDIT.md` |
+### ⚠️ Known limitations
+- **Touchscreen** – VoodooI2C multitouch panics in `parseElements +0x3eb`; experiment not run (2.6.5)  
+- **Force‑Touch** – pressure/median values are stale (0/40 in kext)  
+- **iServices** – never configured; generate your own SMBIOS identity  
+- **AirDrop / Handoff / Sidecar / iMessage / FaceTime / Apple Watch unlock** – *unverified*  
+- **CPUFriend, CPU port mapping, custom OpenCanopy wallpaper** – *unverified*  
 
-## Not working
+### ❓ Not attempted (yet)
+- AirDrop, Handoff, Sidecar, iMessage, FaceTime, Apple Watch unlock  
+- USB‑port mapping, CPUFriend, custom OpenCanopy wallpaper  
+- Any further touchscreen‑panic work beyond the unrun 2.6.5 experiment  
 
-The Wacom touchscreen panics VoodooI2CHID in `VoodooI2CMultitouchHIDEventDriver::parseElements +0x3eb`. See [Touchscreen panic](docs/TOUCHSCREEN-PANIC.md). The panic is in `evidence/macos-panic.txt`.
+---
 
-## Not attempted
+## 🖼️  Screenshot / illustration gallery
+<p align="center">
+  <img src="docs/img/shot-01-desktop.jpg" alt="Desktop – lid open, macOS Sequoia 15.8.3" width="250">
+  <img src="docs/img/shot-02-about.jpg" alt="About This Mac, serial boxed" width="250">
+  <img src="docs/img/shot-03-wifi.jpg" alt="Wi‑Fi connected, SSID boxed" width="250">
+  <br>
+  <img src="docs/img/shot-04-bluetooth.jpg" alt="Bluetooth paired, device name boxed" width="250">
+  <img src="docs/img/shot-05-sound.jpg" alt="Sound output, volume boxed" width="250">
+</p>
 
-AirDrop, Handoff, Sidecar, iMessage, FaceTime, Apple Watch unlock, USB port mapping, CPUFriend, and a custom OpenCanopy wallpaper. These are UNVERIFIED.
+*Each image is a quick visual aid; the real evidence lives in the `evidence/` folder.*
 
-iServices were never configured. The SMBIOS model is `MacBookPro16,2`, inherited from the reference build. Generate your own identity before using this EFI on your machine. `ROM` must be your own `en0` MAC.
+---
 
-## Quirks
+## ⚡️ Quick Start (for your own machine)
 
-| Quirk | Reason |
-|---|---|
-| `AppleXcpmCfgLock = true`, `AppleCpuPmCfgLock = true` | VERIFIED: CFG-Lock is set, `evidence/msr-e2.txt` |
-| `ResizeAppleGpuBars = -1` | VERIFIED: config, `evidence/config-keys.txt` |
-| `SecureBootModel = Disabled`, `Vault = Optional` | VERIFIED: config, `evidence/config-keys.txt` |
-| `ScanPolicy = 0`, `ApECID = 0` | VERIFIED: config, `evidence/config-keys.txt` |
-| Boot args `keepsyms=1 debug=0x100 alcid=61 igfxonln=1` | VERIFIED: `evidence/config-redacted.json` |
+1. **Generate a unique SMBIOS identity** with `GenSMBIOS` (or your preferred tool).  
+2. **Populate `EFI/OC/config.plist`**  
+   - `SystemSerialNumber`, `MLB`, `SystemUUID` – from GenSMBIOS  
+   - `ROM` – set to **your** `en0` MAC address (`ifconfig en0 | grep ether`)  
+3. **Boot** with the EFI partition mounted; the first macOS start will take a little longer while the kernel builds the slide.  
+4. **Read** `docs/INSTALL.md` and `docs/VERIFY.md` for validation steps.  
 
-## First boot on your own machine
+---
 
-1. Generate a unique SMBIOS identity with GenSMBIOS.
-2. Set `SystemSerialNumber`, `MLB`, `SystemUUID`, and `ROM` in `EFI/OC/config.plist`.
-3. Set `ROM` to your own `en0` MAC.
-4. Read [Install](docs/INSTALL.md) and [Verify](docs/VERIFY.md).
+## 📁  Full evidence (collapsed)
 
-See [Hardware](docs/HARDWARE.md), [Touchpad](docs/TOUCHPAD.md), [Missing inputs](docs/MISSING-INPUTS.md), [Errata](ERRATA.md), [Notice](NOTICE.md), and [Security](SECURITY.md).
+<details>
+  <summary>▶️ Show full evidence links</summary>
+
+  - `evidence/dmidecode.txt` – model, board, BIOS  
+  - `evidence/sysprof-all.txt` – CPU, RAM, storage, GPU, audio, Wi‑Fi, Bluetooth, macOS version, boot‑args, sleep/wake  
+  - `evidence/lspci-nn.txt` – PCI IDs (GPU, USB, Audio, Wi‑Fi, Bluetooth, etc.)  
+  - `evidence/lsusb.txt` – USB devices (Bluetooth, Webcam, Touchpad, Fingerprint)  
+  - `evidence/msr-e2.txt` – CFG‑Lock status  
+  - `evidence/config-redacted.json` & `evidence/config-keys.txt` – OpenCore quirks & boot‑args  
+  - `evidence/sleep-wake.log` – sleep/wake intervals  
+  - `evidence/macos-panic.txt` – touchscreen‑panic stack (if needed)  
+  - `evidence/windows.txt` – no Windows install shares the disk  
+  - `bundle/logs/TOUCHPAD.md`, `bundle/logs/TOUCHPAD_SETTLED.md` – touchpad behaviour logs  
+  - `bundle/logs/THIRD_PARTY_REFINED.md` – third‑party touchscreen findings  
+  - `MANIFEST.md`, `ERRATA.md` – build‑level metadata  
+
+</details>
+
