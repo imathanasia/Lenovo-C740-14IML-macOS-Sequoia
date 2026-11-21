@@ -1,0 +1,8 @@
+NAME        FSTYPE FSVER LABEL    UUID                                 FSAVAIL FSUSE% MOUNTPOINTS
+sda                                                                                   
+└─sda1      vfat   FAT32 OPENCORE REDACTED-VOLID                              27.8G     3% /media/user/OPENCORE
+nvme0n1                                                                               
+├─nvme0n1p1 vfat   FAT32          REDACTED-VOLID                             901.2M     7% /boot/efi
+├─nvme0n1p2 ext4   1.0            REDACTED-UUID   38.3G    15% /
+├─nvme0n1p3 apfs                  REDACTED-UUID                
+└─nvme0n1p4 swap   1              REDACTED-UUID                [SWAP]

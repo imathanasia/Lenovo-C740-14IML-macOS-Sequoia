@@ -1,0 +1,140 @@
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: MacBook Pro
+      Model Identifier: MacBookPro16,2
+      Processor Name: Quad-Core Intel Core i5
+      Processor Speed: 2,11 GHz
+      Number of Processors: 1
+      Total Number of Cores: 4
+      L2 Cache (per Core): 256 KB
+      L3 Cache: 6 MB
+      Hyper-Threading Technology: Enabled
+      Memory: 8 GB
+      System Firmware Version: 2094.80.5.0.0
+      OS Loader Version: 583~6006
+      Serial Number (system): <REDACTED-SERIAL>
+      Hardware UUID: REDACTED-UUID
+      Provisioning UDID: REDACTED-UUID
+
+Software:
+
+    System Software Overview:
+
+      System Version: macOS 15.8.3 (24H241)
+      Kernel Version: Darwin 24.6.0
+      Boot Volume: Macintosh HD
+      Boot Mode: Normal
+      Computer Name: REDACTED
+      User Name: REDACTED
+      Secure Virtual Memory: Enabled
+      System Integrity Protection: Enabled
+      Time since boot: 21 minutes, 55 seconds
+
+Audio:
+
+    Devices:
+
+        Built-in Microphone:
+
+          Default Input Device: Yes
+          Input Channels: 2
+          Manufacturer: Apple Inc.
+          Current SampleRate: 44100
+          Transport: Built-in
+          Input Source: Internal Microphone
+
+        Built-in Output:
+
+          Default Output Device: Yes
+          Default System Output Device: Yes
+          Manufacturer: Apple Inc.
+          Output Channels: 2
+          Current SampleRate: 48000
+          Transport: Built-in
+          Output Source: Internal Speakers
+
+Bluetooth:
+
+      Bluetooth Controller:
+          Address: REDACTED-MAC
+          State: On
+          Chipset: THIRD_PARTY_DONGLE
+          Discoverable: Off
+          Firmware Version: v256 c256
+          Supported services: 0x392039 < HFP AVRCP A2DP HID Braille LEA AACP GATT SerialPort >
+          Transport: USB
+          Vendor ID: 0x004C (Apple)
+      Not Connected:
+          Redmi K60 Ultra:
+              Address: REDACTED-MAC
+              Vendor ID: 0x038F
+              Firmware Version: 0.0.0
+              Minor Type: Mobile Phone
+
+Graphics/Displays:
+
+    Intel HD Graphics CFL CRB:
+
+      Chipset Model: Intel HD Graphics CFL CRB
+      Type: GPU
+      Bus: Built-In
+      VRAM (Dynamic, Max): 1536 MB
+      Vendor: Intel
+      Device ID: 0x3e9b
+      Revision ID: 0x0002
+      Metal Support: Metal 3
+      Displays:
+        Display:
+          Resolution: 1920 x 1080 (1080p FHD - Full High Definition)
+          UI Looks like: 1920 x 1080
+          Framebuffer Depth: 24-Bit Color (ARGB8888)
+          Main Display: Yes
+          Mirror: Off
+          Online: Yes
+          Automatically Adjust Brightness: No
+          Connection Type: Internal
+
+NVMExpress:
+
+    Generic SSD Controller:
+
+        KINGSTON SNV2S250G:
+
+          Capacity: 250,06 GB (250 059 350 016 bytes)
+          TRIM Support: Yes
+          Model: KINGSTON SNV2S250G
+          Revision: SBI03102
+          Serial Number: REDACTED
+          Link Width: x4
+          Link Speed: 8.0 GT/s
+          Detachable Drive: No
+          BSD Name: disk0
+          Partition Map Type: GPT (GUID Partition Table)
+          Removable Media: No
+          S.M.A.R.T. status: Verified
+          Volumes:
+            NO NAME:
+              Capacity: 1,02 GB (1 023 410 176 bytes)
+              Free: 946,3 MB (946 290 688 bytes)
+              Writable: Yes
+              File System: MS-DOS FAT32
+              BSD Name: disk0s1
+              Mount Point: /private/tmp/efi
+              Content: EFI
+              Volume UUID: REDACTED-UUID
+            disk0s2:
+              Capacity: 53,73 GB (53 733 171 200 bytes)
+              BSD Name: disk0s2
+              Content: Linux Filesystem
+            Macintosh HD - Data:
+              Capacity: 187,02 GB (187 024 015 360 bytes)
+              BSD Name: disk0s3
+              Content: Apple_APFS
+            disk0s4:
+              Capacity: 8,28 GB (8 277 458 944 bytes)
+              File System: Linux Swap
+              BSD Name: disk0s4
+              Content: Linux Swap
+

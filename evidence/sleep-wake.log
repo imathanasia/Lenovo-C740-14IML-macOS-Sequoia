@@ -1,0 +1,400 @@
+2026-11-21 07:21:06 +0100 Assertions          	PID 187(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context200.preventuseridledisplaysleep" 00:00:59  id:0x0x5000081d6 [System: DeclUser IntPrevDisp kDisp]          
+2026-11-21 07:21:06 +0100 Assertions          	PID 187(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context200.preventuseridlesleep" 00:00:59  id:0x0x1000081d5 [System: DeclUser IntPrevDisp kDisp]          
+2026-11-21 07:25:04 +0100 Assertions          	PID 101(powerd) TimedOut InternalPreventDisplaySleep "com.apple.powermanagement.delayDisplayOff" 00:05:00  id:0x0x10000081c8 [System: DeclUser IntPrevDisp kDisp]          
+2026-11-21 07:30:13 +0100 Assertions          	PID 158(WindowServer) TimedOut UserIsActive "com.apple.iohideventsystem.queue.tickle serviceID:100000340 service:AppleMultitouchDevice product:Magic Trackpad 2 eventType:11" 00:10:00  id:0x0x900008064 [System: DeclUser kDisp]          
+2026-11-21 07:30:13 +0100 Assertions          	Summary- [System: No Assertions] Using AC(Charge: 100)          
+2026-11-21 07:30:14 +0100 Notification        	Display is turned off                                                      	          
+2026-11-21 07:30:21 +0100 Assertions          	PID 158(WindowServer) Created UserIsActive "com.apple.iohideventsystem.queue.tickle serviceID:1000004ff service:AppleUserHIDEventService product:Keyboard eventType:3" 00:00:00  id:0x0x900008205 [System: DeclUser kDisp]          
+2026-11-21 07:30:21 +0100 Notification        	Display is turned on                                                       	          
+2026-11-21 07:31:17 +0100 Assertions          	Summary- [System: DeclUser kDisp] Using AC(Charge: 100)          
+2026-11-21 07:32:22 +0100 Assertions          	PID 389(Safari) Created PreventUserIdleDisplaySleep "com.apple.WebCore: Document doing camera, screen or window capture" 00:00:00  id:0x0x500008227 [System: PrevDisp DeclUser kDisp]          
+2026-11-21 07:32:42 +0100 Assertions          	PID 101(powerd) TurnedOn InternalPreventDisplaySleep "com.apple.powermanagement.delayDisplayOff" 00:00:00  id:0x0x10000081c8 [System: PrevDisp DeclUser IntPrevDisp kDisp]          
+2026-11-21 07:32:42 +0100 Assertions          	PID 389(Safari) Released PreventUserIdleDisplaySleep "com.apple.WebCore: Document doing camera, screen or window capture" 00:00:19  id:0x0x500008227 [System: DeclUser IntPrevDisp kDisp]          
+2026-11-21 07:33:35 +0100 ShutdownCause       	SMC shutdown cause: 5: Software initiated shutdown                         	          
+Sleep/Wakes since boot at 2026-11-21 07:15:57 +0100 :0   Dark Wake Count in this sleep cycle:2
+
+Time stamp                Domain              	Message                                                                    	Duration  	Delay     
+==========                ======              	=======                                                                    	========  	=====     
+UUID: (null)
+2026-11-21 07:33:36 +0100 Start               	powerd process is started                                                  	          
+2026-11-21 07:33:38 +0100 Assertions          	Summary- [System: No Assertions] Using AC(Charge: 100)          
+2026-11-21 07:33:46 +0100 Assertions          	Kernel Idle sleep preventers: IODisplayWrangler          
+2026-11-21 07:34:46 +0100 Assertions          	PID 116(mds) Released BackgroundTask "com.apple.metadata.mds.power" 00:01:01  id:0x0xb00008020 [System: BGTask]          
+2026-11-21 07:35:31 +0100 ShutdownCause       	SMC shutdown cause: 5: Software initiated shutdown                         	          
+Sleep/Wakes since boot at 2026-11-21 07:33:36 +0100 :0   Dark Wake Count in this sleep cycle:2
+
+Time stamp                Domain              	Message                                                                    	Duration  	Delay     
+==========                ======              	=======                                                                    	========  	=====     
+UUID: (null)
+2026-11-21 07:35:32 +0100 Start               	powerd process is started                                                  	          
+2026-11-21 07:35:34 +0100 Assertions          	Summary- [System: No Assertions] Using AC(Charge: 100)          
+2026-11-21 07:35:41 +0100 Assertions          	Kernel Idle sleep preventers: IODisplayWrangler          
+2026-11-21 07:36:06 +0100 Assertions          	PID 158(WindowServer) Created UserIsActive "com.apple.iohideventsystem.queue.tickle serviceID:1000004db service:AppleUserHIDEventService product:Keyboard eventType:3" 00:00:00  id:0x0x900008060 [System: DeclUser BGTask kDisp]          
+2026-11-21 07:36:26 +0100 Assertions          	PID 541(financed) Created NetworkClientActive "Wallet Refreshing Orders" 00:00:00  id:0x0x1100008140 [System: PrevIdle DeclUser BGTask NetAcc kCPU kDisp]          
+2026-11-21 07:36:27 +0100 Assertions          	PID 541(financed) Released NetworkClientActive "Wallet Refreshing Orders" 00:00:00  id:0x0x1100008140 [System: PrevIdle DeclUser BGTask kDisp]          
+2026-11-21 07:36:34 +0100 Assertions          	Summary- [System: PrevIdle DeclUser BGTask kDisp] Using AC(Charge: 100)          
+2026-11-21 07:37:01 +0100 ShutdownCause       	SMC shutdown cause: 5: Software initiated shutdown                         	          
+Sleep/Wakes since boot at 2026-11-21 07:35:32 +0100 :0   Dark Wake Count in this sleep cycle:2
+
+Time stamp                Domain              	Message                                                                    	Duration  	Delay     
+==========                ======              	=======                                                                    	========  	=====     
+UUID: (null)
+2026-11-21 07:37:01 +0100 Start               	powerd process is started                                                  	          
+2026-11-21 07:37:04 +0100 Assertions          	Summary- [System: No Assertions] Using AC(Charge: 100)          
+2026-11-21 07:37:10 +0100 Assertions          	Kernel Idle sleep preventers: IODisplayWrangler          
+2026-11-21 07:37:16 +0100 Assertions          	PID 158(WindowServer) Created UserIsActive "com.apple.iohideventsystem.queue.tickle serviceID:1000004e1 service:AppleUserHIDEventService product:Keyboard eventType:3" 00:00:00  id:0x0x90000803e [System: DeclUser BGTask kDisp]          
+2026-11-21 07:37:17 +0100 Assertions          	Summary- [System: PrevIdle DeclUser BGTask kDisp] Using AC(Charge: 100)          
+2026-11-21 07:38:12 +0100 Assertions          	PID 116(mds) Released BackgroundTask "com.apple.metadata.mds.power" 00:01:03  id:0x0xb00008021 [System: DeclUser BGTask kDisp]          
+2026-11-21 07:38:13 +0100 Assertions          	PID 289(mds_stores) Released BackgroundTask "com.apple.metadata.mds_stores.power" 00:01:04  id:0x0xb00008020 [System: DeclUser BGTask kDisp]          
+2026-11-21 07:38:36 +0100 Assertions          	PID 129(apsd) Released ApplePushServiceTask "com.apple.apsd-login" 00:01:17  id:0x0xb0000804b [System: DeclUser BGTask kDisp]          
+2026-11-21 07:40:34 +0100 Assertions          	PID 434(caffeinate) Created UserIsActive "caffeinate command-line tool" 00:00:00  id:0x0x90000807a [System: DeclUser kDisp]          
+2026-11-21 07:40:36 +0100 Assertions          	PID 434(caffeinate) TimedOut UserIsActive "caffeinate command-line tool" 00:00:02  id:0x0x90000807a [System: DeclUser kDisp]          
+2026-11-21 07:40:50 +0100 Assertions          	PID 184(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context124.preventuseridledisplaysleep" 00:03:28  id:0x0x50000805d [System: DeclUser BGTask kDisp]          
+2026-11-21 07:40:50 +0100 Assertions          	PID 184(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context124.preventuseridlesleep" 00:03:28  id:0x0x10000805c [System: DeclUser BGTask kDisp]          
+2026-11-21 07:40:50 +0100 Assertions          	PID 184(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context125.preventuseridledisplaysleep" 00:03:28  id:0x0x50000805f [System: DeclUser BGTask kDisp]          
+2026-11-21 07:40:50 +0100 Assertions          	PID 184(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context125.preventuseridlesleep" 00:03:28  id:0x0x10000805e [System: DeclUser BGTask kDisp]          
+2026-11-21 07:40:50 +0100 Assertions          	PID 184(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context126.preventuseridledisplaysleep" 00:03:28  id:0x0x500008061 [System: DeclUser BGTask kDisp]          
+2026-11-21 07:40:50 +0100 Assertions          	PID 184(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context126.preventuseridlesleep" 00:03:28  id:0x0x100008060 [System: DeclUser BGTask kDisp]          
+2026-11-21 07:40:50 +0100 Assertions          	PID 184(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context127.preventuseridledisplaysleep" 00:03:28  id:0x0x500008063 [System: DeclUser BGTask kDisp]          
+2026-11-21 07:40:50 +0100 Assertions          	PID 184(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context127.preventuseridlesleep" 00:03:28  id:0x0x100008062 [System: DeclUser BGTask kDisp]          
+2026-11-21 07:40:50 +0100 Assertions          	PID 184(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context128.preventuseridledisplaysleep" 00:03:28  id:0x0x500008065 [System: DeclUser BGTask kDisp]          
+2026-11-21 07:40:50 +0100 Assertions          	PID 184(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context128.preventuseridlesleep" 00:03:28  id:0x0x100008064 [System: DeclUser BGTask kDisp]          
+2026-11-21 07:41:04 +0100 Assertions          	PID 625(financed) Created NetworkClientActive "Wallet Refreshing Orders" 00:00:00  id:0x0x1100008164 [System: PrevIdle DeclUser BGTask NetAcc kCPU kDisp]          
+2026-11-21 07:41:04 +0100 Assertions          	PID 0(kernel_task) Released Kernel Assertion "CPU"  id:0x0x0 [System: PrevIdle DeclUser BGTask NetAcc kCPU kDisp]          
+2026-11-21 07:41:04 +0100 Assertions          	PID 625(financed) Released NetworkClientActive "Wallet Refreshing Orders" 00:00:00  id:0x0x1100008164 [System: PrevIdle DeclUser BGTask kDisp]          
+2026-11-21 07:41:59 +0100 ShutdownCause       	SMC shutdown cause: 5: Software initiated shutdown                         	          
+Sleep/Wakes since boot at 2026-11-21 07:37:01 +0100 :0   Dark Wake Count in this sleep cycle:2
+
+Time stamp                Domain              	Message                                                                    	Duration  	Delay     
+==========                ======              	=======                                                                    	========  	=====     
+UUID: (null)
+2026-11-21 07:42:00 +0100 Start               	powerd process is started                                                  	          
+2026-11-21 07:42:00 +0100 Assertions          	Summary- [System: No Assertions] Using AC(Charge: 100)          
+2026-11-21 07:42:08 +0100 Assertions          	Kernel Idle sleep preventers: IODisplayWrangler          
+2026-11-21 07:43:12 +0100 Assertions          	PID 116(mds) Released BackgroundTask "com.apple.metadata.mds.power" 00:01:05  id:0x0xb00008020 [System: BGTask]          
+2026-11-21 07:43:31 +0100 Assertions          	PID 129(apsd) Released ApplePushServiceTask "com.apple.apsd-login" 00:01:15  id:0x0xb00008056 [System: BGTask]          
+2026-11-21 07:43:36 +0100 Assertions          	PID 289(mds_stores) Released BackgroundTask "com.apple.metadata.mds_stores.power" 00:01:30  id:0x0xb0000801f [System: No Assertions]          
+2026-11-21 07:43:48 +0100 Assertions          	PID 158(WindowServer) Created UserIsActive "com.apple.iohideventsystem.queue.tickle serviceID:100000407 service:AppleMultitouchDevice product:Magic Trackpad 2 eventType:11" 00:00:00  id:0x0x900008067 [System: DeclUser kDisp]          
+2026-11-21 07:43:51 +0100 Notification        	Display is turned off                                                      	          
+2026-11-21 07:43:51 +0100 Assertions          	PID 158(WindowServer) Summary UserIsActive "com.apple.iohideventsystem.queue.tickle serviceID:1000004fc service:AppleUserHIDEventService product:Keyboard eventType:3" 00:00:01  id:0x0x900008067 [System: DeclUser kDisp]          
+2026-11-21 07:43:51 +0100 Assertions          	Kernel Idle sleep preventers: -None-          
+2026-11-21 07:43:51 +0100 Assertions          	PID 0(kernel_task) Released Idle Sleep Preventer "IODisplayWrangler"  id:0x0x0 [System: DeclUser BGTask kDisp]          
+2026-11-21 07:43:51 +0100 Assertions          	PID 101(powerd) Created InternalPreventSleep "com.apple.powermanagement.darkwakelinger" 00:00:00  id:0x0xd00008069 [System: DeclUser BGTask SRPrevSleep kCPU kDisp]          
+2026-11-21 07:43:53 +0100 Assertions          	Summary- [System: DeclUser SRPrevSleep kCPU kDisp] Using AC(Charge: 100)          
+2026-11-21 07:43:54 +0100 Assertions          	PID 158(WindowServer) TurnedOn UserIsActive "com.apple.iohideventsystem.queue.tickle serviceID:1000002bd service:AppleACPILid product:(null) eventType:3" 00:00:00  id:0x0x900008067 [System: DeclUser SRPrevSleep kCPU kDisp]          
+2026-11-21 07:43:54 +0100 Assertions          	Kernel Idle sleep preventers: IODisplayWrangler          
+Sleep/Wakes since boot at 2026-11-21 07:42:00 +0100 :0   Dark Wake Count in this sleep cycle:2
+
+Time stamp                Domain              	Message                                                                    	Duration  	Delay     
+==========                ======              	=======                                                                    	========  	=====     
+UUID: REDACTED-UUID
+2026-11-21 07:43:54 +0100 Notification        	Display is turned on                                                       	          
+2026-11-21 07:43:54 +0100 Kernel Client Acks  	Delays to Sleep notifications: [AppleIntelFramebuffer driver is slow(msg: SetState to 1)(540 ms)] 
+2026-11-21 07:43:54 +0100 Kernel Client Acks  	Delays to Wake notifications: [AppleHDADriver driver is slow(msg: SetState to 1)(504 ms)]           
+2026-11-21 07:44:06 +0100 Assertions          	PID 101(powerd) TimedOut InternalPreventSleep "com.apple.powermanagement.darkwakelinger" 00:00:14  id:0x0xd00008069 [System: DeclUser SRPrevSleep kCPU kDisp]          
+2026-11-21 07:44:06 +0100 Assertions          	Summary- [System: DeclUser kDisp] Using AC(Charge: 100)          
+2026-11-21 07:44:49 +0100 Assertions          	PID 0(kernel_task) Released Kernel Assertion "CPU"  id:0x0x0 [System: DeclUser kDisp]          
+2026-11-21 07:44:50 +0100 Assertions          	PID 101(powerd) Created ExternalMedia "com.apple.powermanagement.externalmediamounted" 00:00:00  id:0x0x800008079 [System: DeclUser kDisp]          
+2026-11-21 07:45:01 +0100 Assertions          	Summary- [System: DeclUser kDisp] Using AC(Charge: 100)          
+2026-11-21 07:45:34 +0100 Assertions          	PID 469(caffeinate) Created UserIsActive "caffeinate command-line tool" 00:00:00  id:0x0x90000807e [System: DeclUser kDisp]          
+2026-11-21 07:45:37 +0100 Assertions          	PID 469(caffeinate) TimedOut UserIsActive "caffeinate command-line tool" 00:00:03  id:0x0x90000807e [System: DeclUser kDisp]          
+2026-11-21 07:45:46 +0100 Assertions          	PID 193(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context124.preventuseridledisplaysleep" 00:03:26  id:0x0x50000805c [System: DeclUser BGTask kDisp]          
+2026-11-21 07:45:46 +0100 Assertions          	PID 193(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context124.preventuseridlesleep" 00:03:26  id:0x0x10000805b [System: DeclUser BGTask kDisp]          
+2026-11-21 07:45:46 +0100 Assertions          	PID 193(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context125.preventuseridledisplaysleep" 00:03:26  id:0x0x50000805e [System: DeclUser BGTask kDisp]          
+2026-11-21 07:45:46 +0100 Assertions          	PID 193(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context125.preventuseridlesleep" 00:03:26  id:0x0x10000805d [System: DeclUser BGTask kDisp]          
+2026-11-21 07:45:46 +0100 Assertions          	PID 193(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context126.preventuseridledisplaysleep" 00:03:26  id:0x0x500008060 [System: DeclUser BGTask kDisp]          
+2026-11-21 07:45:46 +0100 Assertions          	PID 193(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context126.preventuseridlesleep" 00:03:26  id:0x0x10000805f [System: DeclUser BGTask kDisp]          
+2026-11-21 07:45:46 +0100 Assertions          	PID 193(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context127.preventuseridledisplaysleep" 00:03:26  id:0x0x500008062 [System: DeclUser BGTask kDisp]          
+2026-11-21 07:45:46 +0100 Assertions          	PID 193(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context127.preventuseridlesleep" 00:03:26  id:0x0x100008061 [System: DeclUser BGTask kDisp]          
+2026-11-21 07:45:46 +0100 Assertions          	PID 193(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context128.preventuseridledisplaysleep" 00:03:26  id:0x0x500008064 [System: DeclUser BGTask kDisp]          
+2026-11-21 07:45:46 +0100 Assertions          	PID 193(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context128.preventuseridlesleep" 00:03:26  id:0x0x100008063 [System: DeclUser BGTask kDisp]          
+2026-11-21 07:46:00 +0100 Assertions          	PID 660(financed) Created NetworkClientActive "Wallet Refreshing Orders" 00:00:00  id:0x0x1100008166 [System: PrevIdle DeclUser BGTask NetAcc kCPU kDisp]          
+2026-11-21 07:46:01 +0100 Assertions          	PID 660(financed) Released NetworkClientActive "Wallet Refreshing Orders" 00:00:00  id:0x0x1100008166 [System: PrevIdle DeclUser BGTask kDisp]          
+2026-11-21 07:46:04 +0100 Assertions          	PID 746(studentd) Created NetworkClientActive "studentd:746:CRKNetworkPowerAssertion:0x7f8ca3568410" 00:00:00  id:0x0x1100008178 [System: PrevIdle DeclUser BGTask NetAcc kCPU kDisp]          
+2026-11-21 07:46:06 +0100 Assertions          	Summary- [System: PrevIdle DeclUser NetAcc kCPU kDisp] Using AC(Charge: 100)          
+2026-11-21 07:46:09 +0100 Assertions          	PID 746(studentd) Released NetworkClientActive "studentd:746:CRKNetworkPowerAssertion:0x7f8ca3568410" 00:00:05  id:0x0x1100008178 [System: PrevIdle DeclUser BGTask kDisp]          
+2026-11-21 07:46:10 +0100 Assertions          	Summary- [System: PrevIdle DeclUser kDisp] Using AC(Charge: 100)          
+2026-11-21 07:46:32 +0100 Assertions          	PID 746(studentd) Created NetworkClientActive "studentd:746:CRKNetworkPowerAssertion:0x7f8ca3568410" 00:00:00  id:0x0x11000081b0 [System: PrevIdle DeclUser BGTask NetAcc kCPU kDisp]          
+2026-11-21 07:46:36 +0100 Assertions          	Summary- [System: PrevIdle DeclUser NetAcc kCPU kDisp] Using AC(Charge: 100)          
+2026-11-21 07:46:37 +0100 Assertions          	PID 746(studentd) Released NetworkClientActive "studentd:746:CRKNetworkPowerAssertion:0x7f8ca3568410" 00:00:05  id:0x0x11000081b0 [System: PrevIdle DeclUser BGTask kDisp]          
+2026-11-21 07:46:37 +0100 Assertions          	Summary- [System: PrevIdle DeclUser kDisp] Using AC(Charge: 100)          
+2026-11-21 07:48:06 +0100 ShutdownCause       	SMC shutdown cause: 5: Software initiated shutdown                         	          
+Sleep/Wakes since boot at 2026-11-21 07:42:00 +0100 :0   Dark Wake Count in this sleep cycle:2
+
+Time stamp                Domain              	Message                                                                    	Duration  	Delay     
+==========                ======              	=======                                                                    	========  	=====     
+UUID: (null)
+2026-11-21 07:48:07 +0100 Start               	powerd process is started                                                  	          
+2026-11-21 07:48:10 +0100 Assertions          	Summary- [System: No Assertions] Using AC(Charge: 100)          
+2026-11-21 07:48:16 +0100 Assertions          	Kernel Idle sleep preventers: IODisplayWrangler          
+2026-11-21 07:48:18 +0100 Assertions          	PID 101(powerd) Created ExternalMedia "com.apple.powermanagement.externalmediamounted" 00:00:00  id:0x0x800008035 [System: BGTask]          
+2026-11-21 07:48:32 +0100 Assertions          	PID 158(WindowServer) Created UserIsActive "com.apple.iohideventsystem.queue.tickle serviceID:100000527 service:AppleUserHIDEventService product:Keyboard eventType:3" 00:00:00  id:0x0x900008062 [System: DeclUser BGTask kDisp]          
+2026-11-21 07:48:54 +0100 Assertions          	PID 536(studentd) Created NetworkClientActive "studentd:536:CRKNetworkPowerAssertion:0x7f80f910f780" 00:00:00  id:0x0x11000080f1 [System: PrevIdle DeclUser BGTask NetAcc kCPU kDisp]          
+2026-11-21 07:48:59 +0100 Assertions          	PID 536(studentd) Released NetworkClientActive "studentd:536:CRKNetworkPowerAssertion:0x7f80f910f780" 00:00:05  id:0x0x11000080f1 [System: PrevIdle DeclUser BGTask kDisp]          
+2026-11-21 07:49:05 +0100 Assertions          	PID 552(financed) Created NetworkClientActive "Wallet Refreshing Orders" 00:00:00  id:0x0x110000814b [System: PrevIdle DeclUser BGTask NetAcc kCPU kDisp]          
+2026-11-21 07:49:05 +0100 Assertions          	PID 552(financed) Released NetworkClientActive "Wallet Refreshing Orders" 00:00:00  id:0x0x110000814b [System: PrevIdle DeclUser BGTask kDisp]          
+2026-11-21 07:49:08 +0100 Assertions          	Summary- [System: PrevIdle DeclUser BGTask kDisp] Using AC(Charge: 100)          
+2026-11-21 07:57:04 +0100 ShutdownCause       	SMC shutdown cause: 5: Software initiated shutdown                         	          
+Sleep/Wakes since boot at 2026-11-21 07:48:07 +0100 :0   Dark Wake Count in this sleep cycle:2
+
+Time stamp                Domain              	Message                                                                    	Duration  	Delay     
+==========                ======              	=======                                                                    	========  	=====     
+UUID: (null)
+2026-11-21 07:57:05 +0100 Start               	powerd process is started                                                  	          
+2026-11-21 07:57:08 +0100 Assertions          	Summary- [System: No Assertions] Using AC(Charge: 100)          
+2026-11-21 07:57:14 +0100 Assertions          	Kernel Idle sleep preventers: IODisplayWrangler          
+2026-11-21 07:57:17 +0100 Assertions          	PID 101(powerd) Created ExternalMedia "com.apple.powermanagement.externalmediamounted" 00:00:00  id:0x0x800008035 [System: BGTask]          
+2026-11-21 07:58:18 +0100 Assertions          	PID 116(mds) Released BackgroundTask "com.apple.metadata.mds.power" 00:01:06  id:0x0xb00008020 [System: BGTask]          
+2026-11-21 07:58:39 +0100 Assertions          	PID 129(apsd) Released ApplePushServiceTask "com.apple.apsd-login" 00:01:18  id:0x0xb0000804a [System: BGTask]          
+2026-11-21 07:58:40 +0100 Assertions          	Summary- [System: BGTask] Using AC(Charge: 100)          
+2026-11-21 07:59:19 +0100 Assertions          	PID 289(mds_stores) Released BackgroundTask "com.apple.metadata.mds_stores.power" 00:02:07  id:0x0xb0000801f [System: No Assertions]          
+2026-11-21 08:01:20 +0100 Assertions          	PID 158(WindowServer) Created UserIsActive "com.apple.iohideventsystem.queue.tickle serviceID:100000526 service:AppleUserHIDEventService product:Keyboard eventType:3" 00:00:00  id:0x0x90000806f [System: DeclUser kDisp]          
+2026-11-21 08:01:22 +0100 Assertions          	PID 184(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context124.preventuseridledisplaysleep" 00:03:55  id:0x0x500008056 [System: DeclUser BGTask kDisp]          
+2026-11-21 08:01:22 +0100 Assertions          	PID 184(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context124.preventuseridlesleep" 00:03:55  id:0x0x100008055 [System: DeclUser BGTask kDisp]          
+2026-11-21 08:01:22 +0100 Assertions          	PID 184(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context125.preventuseridledisplaysleep" 00:03:55  id:0x0x500008058 [System: DeclUser BGTask kDisp]          
+2026-11-21 08:01:22 +0100 Assertions          	PID 184(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context125.preventuseridlesleep" 00:03:55  id:0x0x100008057 [System: DeclUser BGTask kDisp]          
+2026-11-21 08:01:22 +0100 Assertions          	PID 184(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context126.preventuseridledisplaysleep" 00:03:55  id:0x0x50000805a [System: DeclUser BGTask kDisp]          
+2026-11-21 08:01:22 +0100 Assertions          	PID 184(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context126.preventuseridlesleep" 00:03:55  id:0x0x100008059 [System: DeclUser BGTask kDisp]          
+2026-11-21 08:01:22 +0100 Assertions          	PID 184(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context127.preventuseridledisplaysleep" 00:03:55  id:0x0x50000805c [System: DeclUser BGTask kDisp]          
+2026-11-21 08:01:22 +0100 Assertions          	PID 184(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context127.preventuseridlesleep" 00:03:55  id:0x0x10000805b [System: DeclUser BGTask kDisp]          
+2026-11-21 08:01:22 +0100 Assertions          	PID 184(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context128.preventuseridledisplaysleep" 00:03:55  id:0x0x50000805e [System: DeclUser BGTask kDisp]          
+2026-11-21 08:01:22 +0100 Assertions          	PID 184(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context128.preventuseridlesleep" 00:03:55  id:0x0x10000805d [System: DeclUser BGTask kDisp]          
+2026-11-21 08:01:31 +0100 Assertions          	PID 600(studentd) Created NetworkClientActive "studentd:600:CRKNetworkPowerAssertion:0x7fbe0ae469a0" 00:00:00  id:0x0x1100008105 [System: PrevIdle DeclUser BGTask NetAcc kCPU kDisp]          
+2026-11-21 08:01:36 +0100 Assertions          	PID 600(studentd) Released NetworkClientActive "studentd:600:CRKNetworkPowerAssertion:0x7fbe0ae469a0" 00:00:05  id:0x0x1100008105 [System: PrevIdle DeclUser BGTask kDisp]          
+2026-11-21 08:01:40 +0100 Assertions          	PID 639(financed) Created NetworkClientActive "Wallet Refreshing Orders" 00:00:00  id:0x0x110000816e [System: PrevIdle DeclUser BGTask NetAcc kCPU kDisp]          
+2026-11-21 08:01:40 +0100 Assertions          	PID 639(financed) Released NetworkClientActive "Wallet Refreshing Orders" 00:00:00  id:0x0x110000816e [System: PrevIdle DeclUser BGTask kDisp]          
+2026-11-21 08:01:45 +0100 Assertions          	Summary- [System: PrevIdle DeclUser kDisp] Using AC(Charge: 100)          
+2026-11-21 08:09:32 +0100 ShutdownCause       	SMC shutdown cause: 5: Software initiated shutdown                         	          
+Sleep/Wakes since boot at 2026-11-21 07:57:05 +0100 :0   Dark Wake Count in this sleep cycle:2
+
+Time stamp                Domain              	Message                                                                    	Duration  	Delay     
+==========                ======              	=======                                                                    	========  	=====     
+UUID: (null)
+2026-11-21 08:09:33 +0100 Start               	powerd process is started                                                  	          
+2026-11-21 08:09:35 +0100 Assertions          	Summary- [System: No Assertions] Using AC(Charge: 100)          
+2026-11-21 08:09:42 +0100 Assertions          	Kernel Idle sleep preventers: IODisplayWrangler          
+2026-11-21 08:09:44 +0100 Assertions          	PID 101(powerd) Created ExternalMedia "com.apple.powermanagement.externalmediamounted" 00:00:00  id:0x0x800008034 [System: PrevIdle BGTask]          
+2026-11-21 08:10:00 +0100 Assertions          	PID 158(WindowServer) Created UserIsActive "com.apple.iohideventsystem.queue.tickle serviceID:100000532 service:AppleUserHIDEventService product:Keyboard eventType:3" 00:00:00  id:0x0x900008063 [System: DeclUser BGTask kDisp]          
+2026-11-21 08:10:21 +0100 Assertions          	PID 534(studentd) Created NetworkClientActive "studentd:534:CRKNetworkPowerAssertion:0x7fe06494e350" 00:00:00  id:0x0x11000080ef [System: PrevIdle DeclUser BGTask NetAcc kCPU kDisp]          
+2026-11-21 08:10:26 +0100 Assertions          	PID 534(studentd) Released NetworkClientActive "studentd:534:CRKNetworkPowerAssertion:0x7fe06494e350" 00:00:05  id:0x0x11000080ef [System: PrevIdle DeclUser BGTask kDisp]          
+2026-11-21 08:10:32 +0100 Assertions          	PID 552(financed) Created NetworkClientActive "Wallet Refreshing Orders" 00:00:00  id:0x0x1100008148 [System: PrevIdle DeclUser BGTask NetAcc kCPU kDisp]          
+2026-11-21 08:10:32 +0100 Assertions          	PID 0(kernel_task) Released Kernel Assertion "CPU"  id:0x0x0 [System: PrevIdle DeclUser BGTask NetAcc kCPU kDisp]          
+2026-11-21 08:10:32 +0100 Assertions          	PID 552(financed) Released NetworkClientActive "Wallet Refreshing Orders" 00:00:00  id:0x0x1100008148 [System: PrevIdle DeclUser BGTask kDisp]          
+2026-11-21 08:10:36 +0100 Assertions          	Summary- [System: PrevIdle DeclUser BGTask kDisp] Using AC(Charge: 100)          
+2026-11-21 08:10:48 +0100 Assertions          	PID 286(mds_stores) Released BackgroundTask "com.apple.metadata.mds_stores.power" 00:01:08  id:0x0xb0000801f [System: PrevIdle DeclUser BGTask kDisp]          
+2026-11-21 08:11:04 +0100 Assertions          	PID 116(mds) Released BackgroundTask "com.apple.metadata.mds.power" 00:01:24  id:0x0xb00008020 [System: PrevIdle DeclUser BGTask kDisp]          
+2026-11-21 08:13:11 +0100 ShutdownCause       	SMC shutdown cause: 5: Software initiated shutdown                         	          
+Sleep/Wakes since boot at 2026-11-21 08:09:33 +0100 :0   Dark Wake Count in this sleep cycle:2
+
+Time stamp                Domain              	Message                                                                    	Duration  	Delay     
+==========                ======              	=======                                                                    	========  	=====     
+UUID: (null)
+2026-11-21 08:13:12 +0100 Start               	powerd process is started                                                  	          
+2026-11-21 08:13:14 +0100 Assertions          	Summary- [System: No Assertions] Using AC(Charge: 99)          
+2026-11-21 08:13:20 +0100 Assertions          	Kernel Idle sleep preventers: IODisplayWrangler          
+2026-11-21 08:13:23 +0100 Assertions          	PID 101(powerd) Created ExternalMedia "com.apple.powermanagement.externalmediamounted" 00:00:00  id:0x0x800008033 [System: PrevIdle BGTask]          
+2026-11-21 08:13:27 +0100 Assertions          	Summary- [System: PrevIdle BGTask] Using AC(Charge: 100)          
+2026-11-21 08:13:41 +0100 Assertions          	PID 158(WindowServer) Created UserIsActive "com.apple.iohideventsystem.queue.tickle serviceID:10000052d service:AppleUserHIDEventService product:Keyboard eventType:3" 00:00:00  id:0x0x900008063 [System: DeclUser BGTask kDisp]          
+2026-11-21 08:14:03 +0100 Assertions          	PID 548(studentd) Created NetworkClientActive "studentd:548:CRKNetworkPowerAssertion:0x7fb1e2458560" 00:00:00  id:0x0x11000080f7 [System: PrevIdle DeclUser BGTask NetAcc kCPU kDisp]          
+2026-11-21 08:14:08 +0100 Assertions          	PID 548(studentd) Released NetworkClientActive "studentd:548:CRKNetworkPowerAssertion:0x7fb1e2458560" 00:00:05  id:0x0x11000080f7 [System: PrevIdle DeclUser BGTask kDisp]          
+2026-11-21 08:14:11 +0100 Assertions          	PID 568(financed) Created NetworkClientActive "Wallet Refreshing Orders" 00:00:00  id:0x0x110000814a [System: PrevIdle DeclUser BGTask NetAcc kCPU kDisp]          
+2026-11-21 08:14:11 +0100 Assertions          	PID 568(financed) Released NetworkClientActive "Wallet Refreshing Orders" 00:00:00  id:0x0x110000814a [System: PrevIdle DeclUser BGTask kDisp]          
+2026-11-21 08:14:16 +0100 Assertions          	Summary- [System: PrevIdle DeclUser BGTask kDisp] Using AC(Charge: 100)          
+2026-11-21 08:14:28 +0100 Assertions          	PID 287(mds_stores) Released BackgroundTask "com.apple.metadata.mds_stores.power" 00:01:10  id:0x0xb0000801e [System: PrevIdle DeclUser BGTask kDisp]          
+2026-11-21 08:14:47 +0100 Assertions          	PID 116(mds) Released BackgroundTask "com.apple.metadata.mds.power" 00:01:28  id:0x0xb0000801f [System: PrevIdle DeclUser BGTask kDisp]          
+2026-11-21 08:15:23 +0100 ShutdownCause       	SMC shutdown cause: 5: Software initiated shutdown                         	          
+Sleep/Wakes since boot at 2026-11-21 08:13:12 +0100 :0   Dark Wake Count in this sleep cycle:2
+
+Time stamp                Domain              	Message                                                                    	Duration  	Delay     
+==========                ======              	=======                                                                    	========  	=====     
+UUID: (null)
+2026-11-21 08:15:24 +0100 Start               	powerd process is started                                                  	          
+2026-11-21 08:15:27 +0100 Assertions          	Summary- [System: No Assertions] Using AC(Charge: 99)          
+2026-11-21 08:15:33 +0100 Assertions          	Kernel Idle sleep preventers: IODisplayWrangler          
+2026-11-21 08:15:36 +0100 Assertions          	PID 101(powerd) Created ExternalMedia "com.apple.powermanagement.externalmediamounted" 00:00:00  id:0x0x800008034 [System: PrevIdle BGTask]          
+2026-11-21 08:15:51 +0100 Assertions          	PID 158(WindowServer) Created UserIsActive "com.apple.iohideventsystem.queue.tickle serviceID:100000537 service:AppleUserHIDEventService product:Keyboard eventType:3" 00:00:00  id:0x0x900008063 [System: DeclUser BGTask kDisp]          
+2026-11-21 08:16:15 +0100 Assertions          	PID 549(studentd) Created NetworkClientActive "studentd:549:CRKNetworkPowerAssertion:0x7f8722579a20" 00:00:00  id:0x0x1100008102 [System: PrevIdle DeclUser BGTask NetAcc kCPU kDisp]          
+2026-11-21 08:16:20 +0100 Assertions          	PID 549(studentd) Released NetworkClientActive "studentd:549:CRKNetworkPowerAssertion:0x7f8722579a20" 00:00:04  id:0x0x1100008102 [System: PrevIdle DeclUser BGTask kDisp]          
+2026-11-21 08:16:23 +0100 Assertions          	PID 584(financed) Created NetworkClientActive "Wallet Refreshing Orders" 00:00:00  id:0x0x1100008142 [System: PrevIdle DeclUser BGTask NetAcc kCPU kDisp]          
+2026-11-21 08:16:24 +0100 Assertions          	PID 584(financed) Released NetworkClientActive "Wallet Refreshing Orders" 00:00:00  id:0x0x1100008142 [System: PrevIdle DeclUser BGTask kDisp]          
+2026-11-21 08:16:28 +0100 Assertions          	Summary- [System: PrevIdle DeclUser BGTask kDisp] Using AC(Charge: 100)          
+2026-11-21 08:16:48 +0100 Assertions          	PID 289(mds_stores) Released BackgroundTask "com.apple.metadata.mds_stores.power" 00:01:16  id:0x0xb00008020 [System: PrevIdle DeclUser BGTask kDisp]          
+2026-11-21 08:16:55 +0100 Assertions          	PID 116(mds) Released BackgroundTask "com.apple.metadata.mds.power" 00:01:24  id:0x0xb0000801f [System: PrevIdle DeclUser BGTask kDisp]          
+2026-11-21 08:20:30 +0100 Assertions          	PID 549(studentd) Created NetworkClientActive "studentd:549:CRKNetworkPowerAssertion:0x7f8722579a20" 00:00:00  id:0x0x11000081e6 [System: DeclUser BGTask NetAcc kCPU kDisp]          
+2026-11-21 08:20:35 +0100 Assertions          	PID 549(studentd) Released NetworkClientActive "studentd:549:CRKNetworkPowerAssertion:0x7f8722579a20" 00:00:05  id:0x0x11000081e6 [System: DeclUser kDisp]          
+2026-11-21 08:26:32 +0100 ShutdownCause       	SMC shutdown cause: 5: Software initiated shutdown                         	          
+Sleep/Wakes since boot at 2026-11-21 08:15:24 +0100 :0   Dark Wake Count in this sleep cycle:2
+
+Time stamp                Domain              	Message                                                                    	Duration  	Delay     
+==========                ======              	=======                                                                    	========  	=====     
+UUID: (null)
+2026-11-21 08:26:33 +0100 Start               	powerd process is started                                                  	          
+2026-11-21 08:26:36 +0100 Assertions          	Summary- [System: No Assertions] Using AC(Charge: 99)          
+2026-11-21 08:26:42 +0100 Assertions          	Kernel Idle sleep preventers: IODisplayWrangler          
+2026-11-21 08:26:45 +0100 Assertions          	PID 101(powerd) Created ExternalMedia "com.apple.powermanagement.externalmediamounted" 00:00:00  id:0x0x800008034 [System: PrevIdle BGTask]          
+2026-11-21 08:27:08 +0100 Assertions          	PID 158(WindowServer) Created UserIsActive "com.apple.iohideventsystem.queue.tickle serviceID:100000537 service:AppleUserHIDEventService product:Keyboard eventType:3" 00:00:00  id:0x0x900008062 [System: DeclUser BGTask kDisp]          
+2026-11-21 08:27:31 +0100 Assertions          	PID 545(studentd) Created NetworkClientActive "studentd:545:CRKNetworkPowerAssertion:0x7fc90310c4f0" 00:00:00  id:0x0x1100008100 [System: PrevIdle DeclUser BGTask NetAcc kCPU kDisp]          
+2026-11-21 08:27:35 +0100 Assertions          	PID 580(financed) Created NetworkClientActive "Wallet Refreshing Orders" 00:00:00  id:0x0x1100008135 [System: PrevIdle DeclUser BGTask NetAcc kCPU kDisp]          
+2026-11-21 08:27:35 +0100 Assertions          	PID 580(financed) Released NetworkClientActive "Wallet Refreshing Orders" 00:00:00  id:0x0x1100008135 [System: PrevIdle DeclUser BGTask NetAcc kCPU kDisp]          
+2026-11-21 08:27:36 +0100 Assertions          	PID 545(studentd) Released NetworkClientActive "studentd:545:CRKNetworkPowerAssertion:0x7fc90310c4f0" 00:00:04  id:0x0x1100008100 [System: PrevIdle DeclUser BGTask kDisp]          
+2026-11-21 08:27:42 +0100 Assertions          	Summary- [System: PrevIdle DeclUser BGTask kDisp] Using AC(Charge: 100)          
+2026-11-21 08:27:57 +0100 Assertions          	PID 288(mds_stores) Released BackgroundTask "com.apple.metadata.mds_stores.power" 00:01:17  id:0x0xb0000801f [System: DeclUser BGTask kDisp]          
+2026-11-21 08:28:12 +0100 Assertions          	PID 116(mds) Released BackgroundTask "com.apple.metadata.mds.power" 00:01:31  id:0x0xb00008020 [System: PrevIdle DeclUser BGTask kDisp]          
+2026-11-21 08:36:16 +0100 ShutdownCause       	SMC shutdown cause: 5: Software initiated shutdown                         	          
+Sleep/Wakes since boot at 2026-11-21 08:26:33 +0100 :0   Dark Wake Count in this sleep cycle:2
+
+Time stamp                Domain              	Message                                                                    	Duration  	Delay     
+==========                ======              	=======                                                                    	========  	=====     
+UUID: (null)
+2026-11-21 08:36:17 +0100 Start               	powerd process is started                                                  	          
+2026-11-21 08:36:19 +0100 Assertions          	Summary- [System: No Assertions] Using AC(Charge: 99)          
+2026-11-21 08:36:25 +0100 Assertions          	Kernel Idle sleep preventers: IODisplayWrangler          
+2026-11-21 08:36:28 +0100 Assertions          	PID 101(powerd) Created ExternalMedia "com.apple.powermanagement.externalmediamounted" 00:00:00  id:0x0x800008034 [System: BGTask]          
+2026-11-21 08:36:44 +0100 Assertions          	PID 158(WindowServer) Created UserIsActive "com.apple.iohideventsystem.queue.tickle serviceID:10000052a service:AppleUserHIDEventService product:Keyboard eventType:3" 00:00:00  id:0x0x900008061 [System: DeclUser BGTask kDisp]          
+2026-11-21 08:37:09 +0100 Assertions          	PID 539(financed) Created NetworkClientActive "Wallet Refreshing Orders" 00:00:00  id:0x0x1100008129 [System: PrevIdle DeclUser BGTask NetAcc kCPU kDisp]          
+2026-11-21 08:37:09 +0100 Assertions          	PID 539(financed) Released NetworkClientActive "Wallet Refreshing Orders" 00:00:00  id:0x0x1100008129 [System: PrevIdle DeclUser BGTask kDisp]          
+2026-11-21 08:54:38 +0100 ShutdownCause       	SMC shutdown cause: 5: Software initiated shutdown                         	          
+Sleep/Wakes since boot at 2026-11-21 08:36:17 +0100 :0   Dark Wake Count in this sleep cycle:2
+
+Time stamp                Domain              	Message                                                                    	Duration  	Delay     
+==========                ======              	=======                                                                    	========  	=====     
+UUID: (null)
+2026-11-21 08:54:38 +0100 Start               	powerd process is started                                                  	          
+2026-11-21 08:54:41 +0100 Assertions          	Summary- [System: No Assertions] Using AC(Charge: 99)          
+2026-11-21 08:54:47 +0100 Assertions          	Kernel Idle sleep preventers: IODisplayWrangler          
+2026-11-21 08:54:50 +0100 Assertions          	PID 101(powerd) Created ExternalMedia "com.apple.powermanagement.externalmediamounted" 00:00:00  id:0x0x800008034 [System: BGTask]          
+2026-11-21 08:55:49 +0100 Assertions          	PID 116(mds) Released BackgroundTask "com.apple.metadata.mds.power" 00:01:03  id:0x0xb0000801f [System: BGTask]          
+2026-11-21 08:56:12 +0100 Assertions          	PID 129(apsd) Released ApplePushServiceTask "com.apple.apsd-login" 00:01:17  id:0x0xb00008049 [System: BGTask]          
+2026-11-21 08:56:13 +0100 Assertions          	Summary- [System: No Assertions] Using AC(Charge: 100)          
+2026-11-21 08:57:16 +0100 Assertions          	PID 158(WindowServer) Created UserIsActive "com.apple.iohideventsystem.queue.tickle serviceID:10000053e service:AppleUserHIDEventService product:Keyboard eventType:3" 00:00:00  id:0x0x90000806b [System: DeclUser kDisp]          
+2026-11-21 08:57:19 +0100 Assertions          	PID 181(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context124.preventuseridledisplaysleep" 00:02:20  id:0x0x500008055 [System: DeclUser BGTask kDisp]          
+2026-11-21 08:57:19 +0100 Assertions          	PID 181(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context124.preventuseridlesleep" 00:02:20  id:0x0x100008054 [System: DeclUser BGTask kDisp]          
+2026-11-21 08:57:19 +0100 Assertions          	PID 181(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context125.preventuseridledisplaysleep" 00:02:20  id:0x0x500008057 [System: DeclUser BGTask kDisp]          
+2026-11-21 08:57:19 +0100 Assertions          	PID 181(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context125.preventuseridlesleep" 00:02:20  id:0x0x100008056 [System: DeclUser BGTask kDisp]          
+2026-11-21 08:57:19 +0100 Assertions          	PID 181(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context126.preventuseridledisplaysleep" 00:02:20  id:0x0x500008059 [System: DeclUser BGTask kDisp]          
+2026-11-21 08:57:19 +0100 Assertions          	PID 181(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context126.preventuseridlesleep" 00:02:20  id:0x0x100008058 [System: DeclUser BGTask kDisp]          
+2026-11-21 08:57:19 +0100 Assertions          	PID 181(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context127.preventuseridledisplaysleep" 00:02:20  id:0x0x50000805b [System: DeclUser BGTask kDisp]          
+2026-11-21 08:57:19 +0100 Assertions          	PID 181(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context127.preventuseridlesleep" 00:02:20  id:0x0x10000805a [System: DeclUser BGTask kDisp]          
+2026-11-21 08:57:19 +0100 Assertions          	PID 181(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context128.preventuseridledisplaysleep" 00:02:20  id:0x0x50000805d [System: DeclUser BGTask kDisp]          
+2026-11-21 08:57:19 +0100 Assertions          	PID 181(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context128.preventuseridlesleep" 00:02:20  id:0x0x10000805c [System: DeclUser BGTask kDisp]          
+2026-11-21 08:57:32 +0100 Assertions          	PID 531(financed) Created NetworkClientActive "Wallet Refreshing Orders" 00:00:00  id:0x0x1100008146 [System: PrevIdle DeclUser BGTask NetAcc kCPU kDisp]          
+2026-11-21 08:57:32 +0100 Assertions          	PID 531(financed) Released NetworkClientActive "Wallet Refreshing Orders" 00:00:00  id:0x0x1100008146 [System: PrevIdle DeclUser BGTask kDisp]          
+2026-11-21 08:58:25 +0100 ShutdownCause       	SMC shutdown cause: 5: Software initiated shutdown                         	          
+Sleep/Wakes since boot at 2026-11-21 08:54:38 +0100 :0   Dark Wake Count in this sleep cycle:2
+
+Time stamp                Domain              	Message                                                                    	Duration  	Delay     
+==========                ======              	=======                                                                    	========  	=====     
+UUID: (null)
+2026-11-21 08:58:25 +0100 Start               	powerd process is started                                                  	          
+2026-11-21 08:58:25 +0100 Assertions          	Summary- [System: No Assertions] Using AC(Charge: 100)          
+2026-11-21 08:58:34 +0100 Assertions          	Kernel Idle sleep preventers: IODisplayWrangler          
+2026-11-21 08:58:37 +0100 Assertions          	PID 101(powerd) Created ExternalMedia "com.apple.powermanagement.externalmediamounted" 00:00:00  id:0x0x800008034 [System: PrevIdle BGTask]          
+2026-11-21 08:58:40 +0100 Assertions          	Summary- [System: PrevIdle BGTask] Using AC(Charge: 100)          
+2026-11-21 08:59:36 +0100 Assertions          	PID 116(mds) Released BackgroundTask "com.apple.metadata.mds.power" 00:01:04  id:0x0xb00008020 [System: BGTask]          
+2026-11-21 08:59:43 +0100 Assertions          	PID 158(WindowServer) Created UserIsActive "com.apple.iohideventsystem.queue.tickle serviceID:100000527 service:AppleUserHIDEventService product:Keyboard eventType:3" 00:00:00  id:0x0x90000807c [System: DeclUser BGTask kDisp]          
+2026-11-21 08:59:57 +0100 Assertions          	PID 129(apsd) Released ApplePushServiceTask "com.apple.apsd-login" 00:01:14  id:0x0xb0000804d [System: DeclUser BGTask kDisp]          
+2026-11-21 08:59:58 +0100 Assertions          	Summary- [System: DeclUser kDisp] Using AC(Charge: 100)          
+2026-11-21 15:53:24 +0100 ShutdownCause       	SMC shutdown cause: 5: Software initiated shutdown                         	          
+Sleep/Wakes since boot at 2026-11-21 08:58:25 +0100 :0   Dark Wake Count in this sleep cycle:2
+
+Time stamp                Domain              	Message                                                                    	Duration  	Delay     
+==========                ======              	=======                                                                    	========  	=====     
+UUID: (null)
+2026-11-21 15:53:25 +0100 Start               	powerd process is started                                                  	          
+2026-11-21 15:53:27 +0100 Assertions          	Summary- [System: No Assertions] Using AC(Charge: 100)          
+2026-11-21 15:53:34 +0100 Assertions          	Kernel Idle sleep preventers: IODisplayWrangler          
+2026-11-21 15:53:38 +0100 Assertions          	PID 101(powerd) Created ExternalMedia "com.apple.powermanagement.externalmediamounted" 00:00:00  id:0x0x800008035 [System: BGTask]          
+2026-11-21 15:53:48 +0100 Assertions          	PID 158(WindowServer) Created UserIsActive "com.apple.iohideventsystem.queue.tickle serviceID:100000430 service:AppleMultitouchDevice product:Magic Trackpad 2 eventType:11" 00:00:00  id:0x0x900008062 [System: PrevIdle DeclUser BGTask kDisp]          
+2026-11-21 15:54:33 +0100 Assertions          	PID 289(mds_stores) Released BackgroundTask "com.apple.metadata.mds_stores.power" 00:01:01  id:0x0xb00008020 [System: DeclUser BGTask kDisp]          
+2026-11-21 15:54:33 +0100 Assertions          	PID 116(mds) Released BackgroundTask "com.apple.metadata.mds.power" 00:01:01  id:0x0xb0000801f [System: DeclUser BGTask kDisp]          
+2026-11-21 15:54:51 +0100 Assertions          	PID 397(caffeinate) Created UserIsActive "caffeinate command-line tool" 00:00:00  id:0x0x90000806d [System: DeclUser BGTask kDisp]          
+2026-11-21 15:54:54 +0100 Assertions          	PID 397(caffeinate) TimedOut UserIsActive "caffeinate command-line tool" 00:00:03  id:0x0x90000806d [System: DeclUser BGTask kDisp]          
+2026-11-21 15:54:54 +0100 Assertions          	Summary- [System: DeclUser BGTask kDisp] Using AC(Charge: 100)          
+2026-11-21 15:54:59 +0100 Assertions          	PID 129(apsd) Released ApplePushServiceTask "com.apple.apsd-login" 00:01:17  id:0x0xb00008036 [System: DeclUser BGTask kDisp]          
+2026-11-21 15:55:10 +0100 Notification        	Display is turned off                                                      	          
+2026-11-21 15:55:10 +0100 Assertions          	PID 101(powerd) Summary ExternalMedia "com.apple.powermanagement.externalmediamounted" 00:01:32  id:0x0x800008035 [System: DeclUser kDisp]          
+2026-11-21 15:55:10 +0100 Assertions          	PID 158(WindowServer) Summary UserIsActive "com.apple.iohideventsystem.queue.tickle serviceID:10000052f service:AppleUserHIDEventService product:Keyboard eventType:3" 00:00:27  id:0x0x900008062 [System: DeclUser kDisp]          
+2026-11-21 15:55:10 +0100 Assertions          	Kernel Idle sleep preventers: -None-          
+2026-11-21 15:55:10 +0100 Assertions          	PID 0(kernel_task) Released Idle Sleep Preventer "IODisplayWrangler"  id:0x0x0 [System: DeclUser kDisp]          
+2026-11-21 15:55:10 +0100 Assertions          	PID 101(powerd) Created InternalPreventSleep "com.apple.powermanagement.darkwakelinger" 00:00:00  id:0x0xd00008070 [System: DeclUser SRPrevSleep kCPU kDisp]          
+2026-11-21 15:55:10 +0100 Assertions          	PID 0(kernel_task) Released Kernel Assertion "CPU"  id:0x0x0 [System: DeclUser SRPrevSleep kCPU kDisp]          
+2026-11-21 15:55:12 +0100 Assertions          	Summary- [System: DeclUser SRPrevSleep kCPU kDisp] Using AC(Charge: 100)          
+2026-11-21 15:55:15 +0100 Assertions          	PID 158(WindowServer) TurnedOn UserIsActive "com.apple.iohideventsystem.queue.tickle serviceID:1000002cc service:AppleACPILid product:(null) eventType:3" 00:00:00  id:0x0x900008062 [System: DeclUser SRPrevSleep kCPU kDisp]          
+2026-11-21 15:55:15 +0100 Assertions          	Kernel Idle sleep preventers: IODisplayWrangler          
+Sleep/Wakes since boot at 2026-11-21 15:53:25 +0100 :0   Dark Wake Count in this sleep cycle:2
+
+Time stamp                Domain              	Message                                                                    	Duration  	Delay     
+==========                ======              	=======                                                                    	========  	=====     
+UUID: REDACTED-UUID
+2026-11-21 15:55:15 +0100 Notification        	Display is turned on                                                       	          
+2026-11-21 15:55:16 +0100 Kernel Client Acks  	Delays to Sleep notifications: [AppleIntelFramebuffer driver is slow(msg: SetState to 1)(465 ms)] 
+2026-11-21 15:55:16 +0100 Kernel Client Acks  	Delays to Wake notifications: [AppleHDADriver driver is slow(msg: SetState to 1)(480 ms)]           
+2026-11-21 15:55:25 +0100 Assertions          	PID 101(powerd) TimedOut InternalPreventSleep "com.apple.powermanagement.darkwakelinger" 00:00:15  id:0x0xd00008070 [System: DeclUser SRPrevSleep kCPU kDisp]          
+2026-11-21 15:55:25 +0100 Assertions          	Summary- [System: DeclUser kDisp] Using AC(Charge: 100)          
+2026-11-21 15:56:58 +0100 Assertions          	PID 179(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context124.preventuseridledisplaysleep" 00:03:11  id:0x0x500008058 [System: DeclUser BGTask kDisp]          
+2026-11-21 15:56:58 +0100 Assertions          	PID 179(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context124.preventuseridlesleep" 00:03:11  id:0x0x100008057 [System: DeclUser BGTask kDisp]          
+2026-11-21 15:56:58 +0100 Assertions          	PID 179(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context125.preventuseridledisplaysleep" 00:03:11  id:0x0x50000805a [System: DeclUser BGTask kDisp]          
+2026-11-21 15:56:58 +0100 Assertions          	PID 179(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context125.preventuseridlesleep" 00:03:11  id:0x0x100008059 [System: DeclUser BGTask kDisp]          
+2026-11-21 15:56:58 +0100 Assertions          	PID 179(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context126.preventuseridledisplaysleep" 00:03:11  id:0x0x50000805c [System: DeclUser BGTask kDisp]          
+2026-11-21 15:56:58 +0100 Assertions          	PID 179(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context126.preventuseridlesleep" 00:03:11  id:0x0x10000805b [System: DeclUser BGTask kDisp]          
+2026-11-21 15:56:58 +0100 Assertions          	PID 179(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context127.preventuseridledisplaysleep" 00:03:11  id:0x0x50000805e [System: DeclUser BGTask kDisp]          
+2026-11-21 15:56:58 +0100 Assertions          	PID 179(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context127.preventuseridlesleep" 00:03:11  id:0x0x10000805d [System: DeclUser BGTask kDisp]          
+2026-11-21 15:56:58 +0100 Assertions          	PID 179(coreaudiod) Released PreventUserIdleDisplaySleep "com.apple.audio.context128.preventuseridledisplaysleep" 00:03:11  id:0x0x500008060 [System: DeclUser BGTask kDisp]          
+2026-11-21 15:56:58 +0100 Assertions          	PID 179(coreaudiod) Released PreventUserIdleSystemSleep "com.apple.audio.context128.preventuseridlesleep" 00:03:11  id:0x0x10000805f [System: DeclUser BGTask kDisp]          
+2026-11-21 15:57:14 +0100 Assertions          	PID 606(financed) Created NetworkClientActive "Wallet Refreshing Orders" 00:00:00  id:0x0x110000816a [System: PrevIdle DeclUser BGTask NetAcc kCPU kDisp]          
+2026-11-21 15:57:16 +0100 Assertions          	PID 606(financed) Released NetworkClientActive "Wallet Refreshing Orders" 00:00:01  id:0x0x110000816a [System: PrevIdle DeclUser BGTask kDisp]          
+2026-11-21 16:10:11 +0100 Assertions          	PID 101(powerd) Summary ExternalMedia "com.apple.powermanagement.externalmediamounted" 00:16:32  id:0x0x800008035 [System: DeclUser kDisp]          
+2026-11-21 16:10:11 +0100 Assertions          	PID 158(WindowServer) Summary UserIsActive "com.apple.iohideventsystem.queue.tickle serviceID:100000430 service:AppleMultitouchDevice product:Magic Trackpad 2 eventType:11" 00:09:54  id:0x0x900008062 [System: DeclUser kDisp]          
+2026-11-21 16:10:16 +0100 Assertions          	PID 158(WindowServer) TimedOut UserIsActive "com.apple.iohideventsystem.queue.tickle serviceID:100000430 service:AppleMultitouchDevice product:Magic Trackpad 2 eventType:11" 00:10:00  id:0x0x900008062 [System: DeclUser kDisp]          
+2026-11-21 16:10:16 +0100 Assertions          	Summary- [System: No Assertions] Using AC(Charge: 100)          
+2026-11-21 16:10:16 +0100 Notification        	Display is turned off                                                      	          
+2026-11-21 16:10:16 +0100 Assertions          	PID 101(powerd) Summary ExternalMedia "com.apple.powermanagement.externalmediamounted" 00:16:38  id:0x0x800008035 [System: No Assertions]          
+2026-11-21 16:10:30 +0100 Assertions          	Kernel Idle sleep preventers: -None-          
+2026-11-21 16:10:30 +0100 Assertions          	PID 0(kernel_task) Released Idle Sleep Preventer "IODisplayWrangler"  id:0x0x0 [System: No Assertions]          
+2026-11-21 16:10:31 +0100 Assertions          	PID 101(powerd) Created InternalPreventSleep "com.apple.powermanagement.darkwakelinger" 00:00:00  id:0x0xd00008238 [System: SRPrevSleep kCPU]          
+2026-11-21 16:10:32 +0100 Assertions          	Summary- [System: SRPrevSleep kCPU] Using AC(Charge: 100)          
+2026-11-21 16:10:46 +0100 Assertions          	PID 101(powerd) TimedOut InternalPreventSleep "com.apple.powermanagement.darkwakelinger" 00:00:15  id:0x0xd00008238 [System: SRPrevSleep kCPU]          
+2026-11-21 16:10:46 +0100 Assertions          	Summary- [System: No Assertions] Using AC(Charge: 100)          
+Sleep/Wakes since boot at 2026-11-21 15:53:25 +0100 :0   Dark Wake Count in this sleep cycle:2
+
+Time stamp                Domain              	Message                                                                    	Duration  	Delay     
+==========                ======              	=======                                                                    	========  	=====     
+UUID: REDACTED-UUID
+2026-11-21 16:10:46 +0100 Sleep               	Entering Sleep state due to 'Idle Sleep':TCPKeepAlive=disabled Using AC (Charge:100%) 6 secs    
+2026-11-21 16:10:47 +0100 Wake Requests       	[*process=powerd request=CSPNEvaluation deltaSecs=6929 wakeAt=2026-11-21 18:06:16] [process=powerd request=UserWake deltaSecs=28752 wakeAt=2026-11-22 00:10:00 info="com.apple.alarm.user-invisible-com.apple.calaccessd.travelEngine.periodicRefreshTimer,470"]           
+2026-11-21 16:10:47 +0100 PM Client Acks      	Delays to Sleep notifications: [com.apple.bluetooth.sleep is slow(513 ms)] [com.apple.apsd is slow(1526 ms)]           
+2026-11-21 16:10:51 +0100 Notification        	Display is turned on                                                       	          
+2026-11-21 16:10:51 +0100 Assertions          	Kernel Idle sleep preventers: IODisplayWrangler          
+2026-11-21 16:10:51 +0100 Assertions          	PID 183(mDNSResponder) Created MaintenanceWake "mDNSResponder:maintenance" 00:00:00  id:0x0xd00008245 [System: BGTask SRPrevSleep kCPU]          
+2026-11-21 16:10:51 +0100 Assertions          	PID 183(mDNSResponder) Released MaintenanceWake "mDNSResponder:maintenance" 00:00:00  id:0x0xd00008245 [System: BGTask]          
+2026-11-21 16:10:52 +0100 Wake                	Wake from Normal Sleep [CDNVA] : due to XDCI USBW/User Using AC (Charge:100%)           
+2026-11-21 16:10:52 +0100 WakeDetails         	DriverReason:XHC - DriverDetails:                                          
+2026-11-21 16:10:52 +0100 HibernateStats      	hibmode=0 standbydelaylow=10800 standbydelayhigh=86400                     	          4         	
+2026-11-21 16:10:52 +0100 WakeTime            	WakeTime: 1.141 sec                                                        	          
+2026-11-21 16:10:52 +0100 Kernel Client Acks  	Delays to Sleep notifications: [AppleIntelFramebuffer driver is slow(msg: SetState to 1)(534 ms)] 
+2026-11-21 16:10:52 +0100 Kernel Client Acks  	Delays to Wake notifications: [ApplePS2Controller driver is slow(msg: SetState to 2)(477 ms)] [IOUSBMassStorageDriverNub driver is slow(msg: SetState to 1)(507 ms)] [AppleIntelFramebuffer driver is slow(msg: SetState to 2)(534 ms)] [AppleHDADriver driver is slow(msg: SetState to 1)(519 ms)] [RMII2C driver is slow(msg: SetState to 1)(1004 ms)] [PRT0 driver is slow(msg: SetState to 2)(1085 ms)]           
+2026-11-21 16:10:52 +0100 Assertions          	PID 101(powerd) Created InternalPreventSleep "com.apple.powermanagement.acwakelinger" 00:00:00  id:0x0xd00008246 [System: BGTask SRPrevSleep kCPU]          
+2026-11-21 16:10:53 +0100 Assertions          	Summary- [System: SRPrevSleep kCPU] Using AC(Charge: 100)          
+2026-11-21 16:11:04 +0100 Assertions          	PID 158(WindowServer) Created UserIsActive "com.apple.iohideventsystem.queue.tickle serviceID:100000430 service:AppleMultitouchDevice product:Magic Trackpad 2 eventType:11" 00:00:00  id:0x0x90000824e [System: DeclUser SRPrevSleep kCPU kDisp]          
+2026-11-21 16:11:11 +0100 Assertions          	PID 101(powerd) Released ExternalMedia "com.apple.powermanagement.externalmediamounted" 00:17:33  id:0x0x800008035 [System: DeclUser SRPrevSleep kCPU kDisp]          
+2026-11-21 16:11:15 +0100 Assertions          	Summary- [System: DeclUser BGTask SRPrevSleep kCPU kDisp] Using AC(Charge: 100)          
+2026-11-21 16:11:37 +0100 Assertions          	PID 101(powerd) TimedOut InternalPreventSleep "com.apple.powermanagement.acwakelinger" 00:00:45  id:0x0xd00008246 [System: DeclUser SRPrevSleep kCPU kDisp]          
+2026-11-21 16:11:37 +0100 Assertions          	Summary- [System: DeclUser kDisp] Using AC(Charge: 100)          
+
+Total Sleep/Wakes since boot at 2026-11-21 15:53:25 +0100 :1
+
+2026-11-21 16:14:46 +0100 : Showing all currently held IOKit power assertions
+Assertion status system-wide:
+   BackgroundTask                 0
+   ApplePushServiceTask           0
+   UserIsActive                   1
+   PreventUserIdleDisplaySleep    0
+   PreventSystemSleep             0
+   ExternalMedia                  0
+   PreventUserIdleSystemSleep     0
+   NetworkClientActive            0
+Listed by owning process:
+   pid 158(WindowServer): [0x000004250009824e] 00:03:28 UserIsActive named: "com.apple.iohideventsystem.queue.tickle serviceID:100000430 service:AppleMultitouchDevice product:Magic Trackpad 2 eventType:11"  
+	Timeout will fire in 392 secs Action=TimeoutActionRelease
+No kernel assertions.
+Idle sleep preventers: IODisplayWrangler

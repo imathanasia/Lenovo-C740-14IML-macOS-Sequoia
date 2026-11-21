@@ -1,0 +1,46 @@
+USB:
+
+    USB 3.1 Bus:
+
+      Host Controller Driver: AppleUSBXHCIPCI
+      PCI Device ID: 0x02ed 
+      PCI Revision ID: 0x0000 
+      PCI Vendor ID: 0x8086 
+
+        Bluetooth USB Host Controller:
+
+          Product ID: 0x0026
+          Vendor ID: 0x8087  (Intel Corporation)
+          Version: 0.02
+          Speed: Up to 12 Mb/s
+          Location ID: 0x14600000 / 2
+          Current Available (mA): 500
+          Current Required (mA): 100
+          Extra Operating Current (mA): 0
+          Built-In: Yes
+
+        Integrated Camera:
+
+          Product ID: 0x2115
+          Vendor ID: 0x5986
+          Version: 54.20
+          Speed: Up to 480 Mb/s
+          Manufacturer: SunplusIT Inc
+          Location ID: 0x14300000 / 5
+          Current Available (mA): 500
+          Current Required (mA): 500
+          Extra Operating Current (mA): 0
+          Built-In: Yes
+
+        Vendor-Specific Device:
+
+          Product ID: 0x00be
+          Vendor ID: 0x06cb  (Synaptics Inc.)
+          Version: 0.00
+          Serial Number: REDACTED
+          Speed: Up to 12 Mb/s
+          Location ID: 0x14200000 / 6
+          Current Available (mA): 500
+          Extra Operating Current (mA): 0
+          Built-In: Yes
+

@@ -1,0 +1,9 @@
+ScanPolicy = 0
+ApECID = 0
+Vault = Optional
+SecureBootModel = Disabled
+ResizeAppleGpuBars = -1
+MinDate = -1
+MinVersion = -1
+Target = 67
+DisplayLevel = 2147483714
